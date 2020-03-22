@@ -1,0 +1,38 @@
+{
+  "dados" : [
+    {
+      "images": ["http://localhost/AppRandomFrases/images/1.jpg", "http://localhost/AppRandomFrases/images/2.jpg", "http://localhost/AppRandomFrases/images/3.jpg", "http://localhost/AppRandomFrases/images/4.jpg"],
+
+      "color": ["#FFFFFF", "#F2F2F2", "#CCCCCC", "#FDA7DF", "#dff9fb", "#F79F1F", "#c7ecee", "#f6e58d", "#f7d794", "#eccc68", "#f7d794", "#f1f2f6", "#7bed9f"],
+
+      "frases": [
+                "Os problemas são oportunidades para se mostrar o que sabe.",
+                "Nossos fracassos, às vezes, são mais frutíferos do que os êxitos.",
+                "Cada cliente é como se fosse primeiro e único",
+                "A felicidade não está em fazer o que a gente quer, e sim querer o que a gente faz",
+                "Nada acontece a menos que sonhemos antes",
+                "Jamais prometa mais do que pode fazer",
+                "Se você for direto e honesto com seus clientes eles o tratarão como amigo",
+                "Não arriscar nada é arriscar tudo",
+                "Mesmo que já tenhas feito uma longa caminhada, há sempre um novo caminho a fazer",
+                "Vender é construir uma ponte entre você e seu cliente e fazê-lo atravessar para o seu lado",
+                "Na prosperidade, nossos amigos nos conhecem; na adversidade, nós é que conhecemos nossos amigos",
+                "A felicidade não está em fazer o que a gente quer, e sim querer o que a gente faz",
+                "Nada acontece a menos que sonhemos antes",
+                "É sempre divertido fazer o impossível",
+                "As duas coisas mais importantes não aparecem no balanço da empresa: sua reputação e o seu time",
+                "A qualidade do seu trabalho tem tudo a ver com a qualidade da sua vida",
+                "No meio da dificuldade encontra-se a oportunidade.",
+                "Lute. Acredite. Conquiste. Perca. Deseje. Espere. Alcance. Invada. Caia. Seja tudo o quiser ser, mas acima de tudo, seja você sempre.",
+                "Eu faço da dificuldade a minha motivação. A volta por cima vem na continuação.",
+                "O insucesso é apenas uma oportunidade para recomeçar com mais inteligência.",
+                "Você precisa fazer aquilo que pensa que não é capaz de fazer.",
+                "Só se pode alcançar um grande êxito quando nos mantemos fiéis a nós mesmos."
+              ]
+    }
+  ]
+}
+
+
+    
+

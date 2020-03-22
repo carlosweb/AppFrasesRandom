@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+2&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body, html {
+  font-family: 'Baloo 2', cursive; }
+
+#images {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  height: auto;
+  max-width: 100%; }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 300px;
+  grid-gap: 20px; }
+  .container .mostrar::before {
+    content: '';
+    background: url(../images/quote.svg);
+    background-size: contain;
+    width: 50px;
+    display: block;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+  .container .title, .container .frases, .container .bt {
+    display: flex;
+    justify-content: center; }
+  .container .frases {
+    margin: 30px auto;
+    padding: 10px; }
+  .container .frases h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center; }
+  .container .bt > button {
+    padding: 15px 90px;
+    border-radius: 8px;
+    background: #0542b3;
+    border: 1px solid #3677f0;
+    box-shadow: 0px 5px 1px #011b4b;
+    font-size: 1.5rem;
+    color: aliceblue;
+    outline: none;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700; }
+    .container .bt > button:active {
+      position: relative;
+      top: 5px;
+      background: #011b4b;
+      box-shadow: none; }
+
+/*# sourceMappingURL=style.css.map */
