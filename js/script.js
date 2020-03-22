@@ -28,12 +28,13 @@ function showDb() {
             let dados = res.dados
             let next = document.querySelector('.mostrar')
             let fontColor = document.querySelector('h2')
-        
+            document.getElementById('img')
+    
             for (let i = 0; i < dados.length; i++){
                 next.innerHTML = dados[i].frases[Math.floor(Math.random()*dados[i].frases.length)]
                 var rand = Math.floor(Math.random()*dados[i].images.length)
-                document.getElementById("images").src = dados[i].images[rand]
-                // document.body.style.background = dados[i].images[Math.floor(Math.random()*dados[i].images.length)]
+                var links = dados[i].images
+                img.innerHTML = `<img src="${links[rand]}" id="images">`
                 fontColor.style.color = dados[i].color[Math.floor(Math.random()*dados[i].color.length)]
             }
         }
@@ -41,6 +42,9 @@ function showDb() {
     ajax.send()
 }
 btn.addEventListener('click', showDb, false)
+
+
+
 
 
 // "color": ["#FFC312", "#C4E538", "#12CBC4", "#FDA7DF", "#ED4C67", "#F79F1F", "#A3CB38", "#1289A7", "#D980FA", "#0652DD", "#f7d794", "#e77f67", "#63cdda"],
