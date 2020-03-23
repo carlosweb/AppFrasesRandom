@@ -132,12 +132,14 @@ body,html {
         font-family: 'Baloo 2', cursive;
         font-weight: 700;
         cursor: pointer;
+        box-sizing: border-box;
 
         &:active {
             border-radius: 51px;
             background: #0800DE;
             box-shadow: inset 29px 29px 59px #0600ab, 
             inset -29px -29px 59px #0a00ff;
+            outline: none;
         }
     }
 }

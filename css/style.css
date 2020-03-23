@@ -96,10 +96,12 @@ body, html {
     outline: none;
     font-family: 'Baloo 2', cursive;
     font-weight: 700;
-    cursor: pointer; }
+    cursor: pointer;
+    box-sizing: border-box; }
     .container .bt > button:active {
       border-radius: 51px;
       background: #0800DE;
-      box-shadow: inset 29px 29px 59px #0600ab,  inset -29px -29px 59px #0a00ff; }
+      box-shadow: inset 29px 29px 59px #0600ab,  inset -29px -29px 59px #0a00ff;
+      outline: none; }
 
 /*# sourceMappingURL=style.css.map */

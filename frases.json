@@ -3,7 +3,7 @@
     {
       "images": ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg", "images/5.jpg", "images/6.jpg", "images/7.jpg", "images/8.jpg", "images/9.jpg", "images/10.jpg", "images/11.jpg", "images/12.jpg"],
 
-      // "color": ["#87CAF1", "#FDE200", "#0200FF", "#FDA7DF", "#0955FE", "#F79F1F", "#95CF05", "#EF0227", "#69F800", "#FF0101", "#f7d794", "#F28603", "#12EE62", "#5CFF00", "#F71400","#1702E7"],
+      "color": ["#87CAF1", "#FDE200", "#0200FF", "#FDA7DF", "#0955FE", "#F79F1F", "#95CF05", "#EF0227", "#69F800", "#FF0101", "#f7d794", "#F28603", "#12EE62", "#5CFF00", "#F71400","#1702E7"],
 
       "frases": [
                 "Os problemas são oportunidades para se mostrar o que sabe.",
