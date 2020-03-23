@@ -8,6 +8,7 @@
 
 body,html {
     font-family: 'Baloo 2', cursive;
+    background-color: #1700B3;
 }
 
 #img img{
@@ -24,6 +25,7 @@ body,html {
     height: 90%;
     width: 290px;
     position: absolute;
+    z-index: 999;
     transition: 800ms ease;
     transform: translateX(-290px);
 
@@ -32,6 +34,8 @@ body,html {
         li{
             list-style: none;
             margin-bottom: 10px;
+            font-size: 1.3rem;
+            color: #FFFFFF;
             a{
                 text-decoration: none;
                 font-size: 1.3rem;
@@ -45,9 +49,10 @@ body,html {
 }
 
 .close {
-    background: #1702E7;;
+    background: #1702E7;
     height: 100%;
     position: absolute;
+    z-index: 999;
     width: 290px;
     transform: translateX(0px);
 }
@@ -57,16 +62,23 @@ body,html {
     justify-content: space-between;
     align-items: center;
     padding-right: 20px;
-    background: rgba($color: #FFFFFF, $alpha: .6);
+    color: #FFFFFF;
 
     img {
         width: 4%;
         margin: 15px;
+        color: #FFFFFF;
     }
 }
 
 .container {
+    border-radius: 80px 80px 0 0;
+    width: 100%;
+    position: absolute;
     display: flex;
+    justify-content: space-around;
+    height: calc(100% - 50px);
+    background: #0800DE;
     flex-direction: column;
 
     .mostrar::before{
@@ -95,11 +107,9 @@ body,html {
     }
 
     .frases {
-        background: rgba(255, 255, 255, 0.6);
+        
         margin: 20px 20px;
-        box-shadow: 2px 2px 5px rgb(88, 88, 88);
         padding: 20px;
-        border-radius: 5px;
         height: 20rem;
     }
 
@@ -107,25 +117,27 @@ body,html {
         font-size: 2rem;
         line-height: 2rem;
         text-align: center;
+        color: #FFFFFF;
     }
     
     .bt > button {
-        padding: 15px 80px;
-        border-radius: 8px;
-        background: #1702E7;
-        border:1px solid rgb(54, 119, 240);;
-        box-shadow: 0px 5px 1px rgb(19, 4, 158);
+        padding: 15px 90px;
+        border: none;
+        border-radius: 51px;
+        background: #0800DE;
+        box-shadow: 29px 29px 59px #0600ab, -29px -29px 59px #0a00ff;
         font-size: 1.5rem;
-        color: #FFFFFF;
+        color: #F1C54D;
         outline: none;
         font-family: 'Baloo 2', cursive;
         font-weight: 700;
+        cursor: pointer;
 
         &:active {
-            position: relative;
-            top: 5px;
-            background: rgb(19, 4, 158);
-            box-shadow: none;
+            border-radius: 51px;
+            background: #0800DE;
+            box-shadow: inset 29px 29px 59px #0600ab, 
+            inset -29px -29px 59px #0a00ff;
         }
     }
 }
