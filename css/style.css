@@ -5,8 +5,7 @@
   box-sizing: border-box; }
 
 body, html {
-  font-family: 'Baloo 2', cursive;
-  background-color: #1700B3; }
+  font-family: 'Baloo 2', cursive; }
 
 #img img {
   position: absolute;
@@ -58,11 +57,6 @@ body, html {
 .container {
   border-radius: 80px 80px 0 0;
   width: 100%;
-  position: absolute;
-  display: flex;
-  justify-content: space-around;
-  height: calc(100% - 50px);
-  background: #0800DE;
   flex-direction: column; }
   .container .mostrar::before {
     content: '';
