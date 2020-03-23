@@ -12,6 +12,16 @@
 //     })
 // })
 
+
+document
+.querySelector('#bt-menu')
+.addEventListener('click', function(){
+    document
+    .querySelector('.sidebar')
+    .classList.toggle('close')
+})
+
+
 let btn = document.querySelector('#bt')
 
 //mostrar dados JSON
@@ -30,8 +40,7 @@ function showDb() {
             let fontColor = document.querySelector('h2')
             document.getElementById('img')
             let currentLink = window.location.href
-            console.log(currentLink)
-    
+  
             for (let i = 0; i < dados.length; i++){
                 next.innerHTML = dados[i].frases[Math.floor(Math.random()*dados[i].frases.length)]
                 var rand = Math.floor(Math.random()*dados[i].images.length)

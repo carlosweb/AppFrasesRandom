@@ -7,17 +7,52 @@
 body, html {
   font-family: 'Baloo 2', cursive; }
 
-#images {
+#img img {
   position: absolute;
   width: 100%;
   z-index: -1;
   height: auto;
   max-width: 100%; }
 
+.sidebar {
+  height: 100%;
+  width: 290px;
+  position: absolute;
+  transition: 800ms ease;
+  transform: translateX(-290px); }
+  .sidebar ul {
+    padding: 40px; }
+    .sidebar ul li {
+      list-style: none;
+      margin-bottom: 10px; }
+      .sidebar ul li a {
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: #FFFFFF; }
+      .sidebar ul li:nth-child(1) {
+        margin-bottom: 20px; }
+
+.close {
+  background: #1702E7;
+  height: 100%;
+  position: absolute;
+  width: 290px;
+  transform: translateX(0px); }
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  background: rgba(255, 255, 255, 0.6); }
+  .icon img {
+    width: 4%;
+    margin: 15px; }
+
 .container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 300px;
+  grid-template-rows: 1fr 1fr;
   grid-gap: 20px; }
   .container .mostrar::before {
     content: '';
@@ -32,27 +67,29 @@ body, html {
     display: flex;
     justify-content: center; }
   .container .frases {
-    margin: 30px auto;
+    margin: 10px auto;
     padding: 10px; }
   .container .frases h2 {
     font-size: 2rem;
     line-height: 2rem;
     text-align: center; }
+  .container .bt {
+    padding: 80px 25px; }
   .container .bt > button {
-    padding: 15px 90px;
+    padding: 15px 80px;
     border-radius: 8px;
-    background: #0542b3;
+    background: #1702E7;
     border: 1px solid #3677f0;
-    box-shadow: 0px 5px 1px #011b4b;
+    box-shadow: 0px 5px 1px #13049e;
     font-size: 1.5rem;
-    color: aliceblue;
+    color: #FFFFFF;
     outline: none;
     font-family: 'Baloo 2', cursive;
     font-weight: 700; }
     .container .bt > button:active {
       position: relative;
       top: 5px;
-      background: #011b4b;
+      background: #13049e;
       box-shadow: none; }
 
 /*# sourceMappingURL=style.css.map */

@@ -10,7 +10,7 @@ body,html {
     font-family: 'Baloo 2', cursive;
 }
 
-#images {
+#img img{
     position: absolute;
     width: 100%;
     z-index: -1;
@@ -18,10 +18,57 @@ body,html {
     max-width: 100%;
 }
 
+
+.sidebar {
+    
+    height: 100%;
+    width: 290px;
+    position: absolute;
+    transition: 800ms ease;
+    transform: translateX(-290px);
+
+    ul{
+        padding: 40px;
+        li{
+            list-style: none;
+            margin-bottom: 10px;
+            a{
+                text-decoration: none;
+                font-size: 1.3rem;
+                color: #FFFFFF;
+            }
+            &:nth-child(1){
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+.close {
+    background: #1702E7;;
+    height: 100%;
+    position: absolute;
+    width: 290px;
+    transform: translateX(0px);
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    background: rgba($color: #FFFFFF, $alpha: .6);
+
+    img {
+        width: 4%;
+        margin: 15px;
+    }
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 300px;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 20px;
 
     .mostrar::before{
@@ -50,7 +97,7 @@ body,html {
     }
 
     .frases {
-        margin: 30px auto;
+        margin: 10px auto;
         padding: 10px;
     }
 
@@ -59,14 +106,17 @@ body,html {
         line-height: 2rem;
         text-align: center;
     }
+    .bt {
+        padding: 80px 25px;
+    }
     .bt > button {
-        padding: 15px 90px;
+        padding: 15px 80px;
         border-radius: 8px;
-        background: rgb(5, 66, 179);
+        background: #1702E7;
         border:1px solid rgb(54, 119, 240);;
-        box-shadow: 0px 5px 1px rgb(1, 27, 75);
+        box-shadow: 0px 5px 1px rgb(19, 4, 158);
         font-size: 1.5rem;
-        color: aliceblue;
+        color: #FFFFFF;
         outline: none;
         font-family: 'Baloo 2', cursive;
         font-weight: 700;
@@ -74,7 +124,7 @@ body,html {
         &:active {
             position: relative;
             top: 5px;
-            background: rgb(1, 27, 75);
+            background: rgb(19, 4, 158);
             box-shadow: none;
         }
     }
