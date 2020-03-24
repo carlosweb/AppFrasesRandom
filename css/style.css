@@ -15,6 +15,7 @@ body, html {
   max-width: 100%; }
 
 .sidebar {
+  background: #3019fc;
   height: 90%;
   width: 290px;
   position: absolute;
@@ -36,7 +37,7 @@ body, html {
         margin-bottom: 20px; }
 
 .close {
-  background: #1702E7;
+  background: #3019fc;
   height: 100%;
   position: absolute;
   z-index: 999;
@@ -73,7 +74,7 @@ body, html {
   .container .frases {
     margin: 20px 20px;
     padding: 20px;
-    height: 20rem; }
+    height: 15rem; }
   .container .frases h2 {
     font-size: 2rem;
     line-height: 2rem;

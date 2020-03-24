@@ -19,7 +19,7 @@ body,html {
 }
 
 .sidebar {
-    
+    background: rgb(48, 25, 252);
     height: 90%;
     width: 290px;
     position: absolute;
@@ -47,7 +47,7 @@ body,html {
 }
 
 .close {
-    background: #1702E7;
+    background: rgb(48, 25, 252);
     height: 100%;
     position: absolute;
     z-index: 999;
@@ -103,7 +103,7 @@ body,html {
         
         margin: 20px 20px;
         padding: 20px;
-        height: 20rem;
+        height: 15rem;
     }
 
     .frases h2{

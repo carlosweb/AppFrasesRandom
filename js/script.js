@@ -13,6 +13,8 @@
 // })
 
 
+
+
 document
 .querySelector('#bt-menu')
 .addEventListener('click', function(){
@@ -43,8 +45,8 @@ function showDb() {
   
             for (let i = 0; i < dados.length; i++){
                 next.innerHTML = dados[i].frases[Math.floor(Math.random()*dados[i].frases.length)]
-                var rand = Math.floor(Math.random()*dados[i].images.length)
-                var links = dados[i].images
+                let rand = Math.floor(Math.random()*dados[i].images.length)
+                let links = dados[i].images
                 img.innerHTML = `<img src="${currentLink}${links[rand]}" id="images">`
                 // fontColor.style.color = dados[i].color[Math.floor(Math.random()*dados[i].color.length)]
             }
@@ -54,8 +56,7 @@ function showDb() {
 }
 btn.addEventListener('click', showDb, false)
 
-
-
+showDb()
 
 
 // "color": ["#FFC312", "#C4E538", "#12CBC4", "#FDA7DF", "#ED4C67", "#F79F1F", "#A3CB38", "#1289A7", "#D980FA", "#0652DD", "#f7d794", "#e77f67", "#63cdda"],
