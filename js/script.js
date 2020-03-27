@@ -57,9 +57,8 @@ btn.addEventListener('click', showDb, false)
 function share(){
 	if (navigator.share !== undefined) {
 		navigator.share({
-			title: 'O título da sua página',
-			text: 'Um texto de resumo',
-			url: 'https://seusite.com/sua_url',
+			title: 'App frases Motivacionais',
+			url: 'https://carlosweb.github.io/AppFrasesRandom/'+ `${dados[i].frases}`
 		})
 		.then(() => console.log('Successful share'))
 		.catch((error) => console.log('Error sharing', error));
