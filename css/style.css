@@ -5,7 +5,8 @@
   box-sizing: border-box; }
 
 body, html {
-  font-family: 'Baloo 2', cursive; }
+  font-family: 'Baloo 2', cursive;
+  -webkit-font-smoothing: antialiased; }
 
 #img img {
   position: absolute;
@@ -13,6 +14,13 @@ body, html {
   z-index: -1;
   height: auto;
   max-width: 100%; }
+
+a .bt-share {
+  margin: 0 0px 0 5px;
+  width: 10%;
+  border-radius: 10px;
+  padding: 8px;
+  background: black; }
 
 .sidebar {
   background: #3019fc;

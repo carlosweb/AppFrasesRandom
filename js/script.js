@@ -55,10 +55,12 @@ btn.addEventListener('click', showDb, false)
 
 
 function share(){
+
+    
 	if (navigator.share !== undefined) {
 		navigator.share({
 			title: 'App frases Motivacionais',
-			url: 'https://carlosweb.github.io/AppFrasesRandom/'
+            url: 'https://carlosweb.github.io/AppFrasesRandom/'
 		})
 		.then(() => console.log('Successful share'))
 		.catch((error) => console.log('Error sharing', error));
